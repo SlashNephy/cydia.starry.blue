@@ -112,6 +112,24 @@ Description: Fix the problem where WatchDogLite would not let you back to jailbr
 Author: Pedro Borges
 Name: WatchDogLiteFix
 
+Package: com.udevs.bakgrunnur
+Version: 1.5.13
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 1384
+Depends: mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap (>= 1.0.3), com.opa334.ccsupport, firmware(>=13.0), applist
+Filename: packages/com.udevs.bakgrunnur_1.5.13_iphoneos-arm.deb
+Size: 237224
+MD5sum: 31fe8035c9e59120ce5605ff93113110
+SHA1: 36499b8aba06f02320fa6db3e11bdc65b2fb389d
+SHA256: 98738a42c43acb9458661a3ad9e8c92ee2627c32d0ebdcd82bd2f2b4347e486a
+Section: Tweaks
+Description: Truly backgrounding your apps
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.bakgrunnur
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.bakgrunnur/icon/icon.png
+Name: Bakgrunnur
+
 Package: com.withoutcoffee.revuestarlightauditionalarm
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -282,6 +300,22 @@ Description: An expermental tool to hide jailbreak files for bypass detection.
 Tag: role::hacker
 Author: XsF1re
 Name: vnodebypass
+
+Package: net.limneos.MobileMiner
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Filename: packages/net.limneos.mobileminer_1.0_iphoneos-arm.deb
+Size: 995932
+MD5sum: cc49ff74c10638bd3eb4ada73c47ffdb
+SHA1: 9b2a786dbdbf798a525635ccde08be30e091b020
+SHA256: dd2fa4203abaf55d20753f0a0e9c196ff43e998fc23703c91de8eddb8c851a93
+Section: System
+Description: Mine ETN with your iPhone!
+Tag: role::hacker
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: file:///Applications/MobileMiner.app/AppIcon60x60@2x.png
+Name: MobileMiner
 
 Package: ru.domo.cocoatop64
 Version: 2.0.2-1+debug
