@@ -1,8 +1,8 @@
-Origin: Slash Nephy's Repo
-Label: Slash Nephy
+Origin: Nep's Private Repo
+Label: Nep
 Suite: stable
 Version: 1.0
 Codename: tangelo
 Architectures: iphoneos-arm
 Components: main
-Description: My experimantal packages. Use at your own risk.
+Description: Packages from @SlashNephy. Use at your own risk.
