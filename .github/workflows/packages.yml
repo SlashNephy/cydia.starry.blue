@@ -1,0 +1,41 @@
+name: Packages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "packages/**"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install dpkg-scanpackages (dpkg-dev)
+        run: sudo apt-get install -y --no-install-recommends dpkg-dev
+
+      - name: Scan packages/*.deb
+        run: dpkg-scanpackages packages/ /dev/null > Packages
+
+      - name: Compress Packages
+        run: |
+          bzip2 -k Packages
+          gzip -k Packages
+          xz -k Packages
+
+      - name: Configure git
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Commit Packages
+        run: |
+          git add .
+          git commit -m "dpkg-scanpackages $('${{ github.sha }}'.Substring(0, 7))"
+          git push
