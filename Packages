@@ -1,0 +1,302 @@
+Package: com.aids.makecydiabuyagain
+Version: 1.0.2-87+debug
+Architecture: iphoneos-arm
+Maintainer: Jake Ihasz
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: packages/com.aids.makecydiabuyagain_1.0.2-87+debug_iphoneos-arm.deb
+Size: 21668
+MD5sum: c35fbd9c25c5133c856d0a2fb5151144
+SHA1: aedc897f30d9e2b7a246aad289987470422c8baf
+SHA256: d4eb514d4708b4e48b03af23819389b40291bcc0851dcbaab860f32d1e31b2b7
+Section: Tweaks
+Description: Enable Cydia to purchase any package on any version of iOS and device that is "not supported"
+Author: Jake Ihasz
+Depiction: https://jakeai.github.io/depictions/?p=com.aids.makecydiabuyagain
+Name: MakeCydiaBuyAgain
+
+Package: com.antique.crystal
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Antique
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: packages/crystal.deb
+Size: 3848
+MD5sum: 46cd28d1653d4b64b779997623701ec9
+SHA1: 130ce1bb83cb29028638c461155d84cbd6601808
+SHA256: 262c3d435991192b54291c775e564f06f85de278f3871c69cca8194afe3cb5be
+Section: Tweaks
+Description: Clear notifications by swiping down
+Author: Antique
+Name: Crystal
+
+Package: com.ioncodes.snek
+Version: 0.1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Luca Marcelli
+Installed-Size: 256
+Depends: mobilesubstrate
+Filename: packages/com.ioncodes.snek_0.1.0-1+debug_iphoneos-arm.deb
+Size: 11802
+MD5sum: 88629a02ff5f632020096983826276ed
+SHA1: 252d621abd443e7e9d38893950ef073af5e419af
+SHA256: d5efa2f6ea0406cea4b1605ad96435f44e6a8a647b95bf2bf1dcf36e15d96bfc
+Section: Tweaks
+Description: Forward your notifications to Windows, Mac OS X, Linux, Discord and Slack!
+Author: Luca Marcelli
+Name: snek
+
+Package: com.ipadkid.ftt
+Version: 0.0.5-2+debug
+Architecture: iphoneos-arm
+Maintainer: ipad_kid <ipadkid358@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: packages/com.ipadkid.ftt_0.0.5-2+debug_iphoneos-arm.deb
+Size: 21906
+MD5sum: f74ab4090ed088d1b85345a911f91470
+SHA1: 2dc5267573cf18d1c788ad715d242f9b0d6b42e9
+SHA256: 2079aee2b22d44a2f31df7577da875015ac2198044565f8462c8383dc82c2bec
+Section: Utilities
+Homepage: https://github.com/ipadkid358/FlexToTheos
+Description: Turn Flex 3 patches into Theos projects
+Author: ipad_kid <ipadkid358@gmail.com>
+Name: Flex To Theos
+
+Package: com.junesiphone.xeninfo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: June <junesgraphics@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: packages/com.junesiphone.xeninfo_1.0_iphoneos-arm.deb
+Size: 25334
+MD5sum: 3d77cd0825a650114d5c0d6a40993d91
+SHA1: e1042990757416e3a088ec56e8ed49621eeb3fcf
+SHA256: 0e168d3838e079cecada191b3b8d11707dd7c2d428c457780b862af924ff507c
+Section: Addons (Tweaks)
+Description: Music, Weather, and battery info for XenHTML
+Tag: cydia::paid
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xeninfo
+Name: XenInfo
+
+Package: com.lxlucaxx.escaper
+Version: 0.0.4-1
+Architecture: iphoneos-arm
+Maintainer: lxlucaxx
+Depends: mobilesubstrate, cy+cpu.arm64
+Filename: packages/Escaper.deb
+Size: 7396
+MD5sum: 4195fa0ad01db5367a2beb77d63bd49e
+SHA1: ac6de34829b75bcc4ba0b874530346de49d25f39
+SHA256: 36087652f7c492981ecb79ea6a8ffbd852213c92dafd015ec0c0360172749a5c
+Section: Tweaks
+Homepage: https://github.com/lxlucaxx/Escaper
+Description: Jailbreak detection bypass for targeted games. Check GitHub page for details.
+Author: lxlucaxx
+Name: Escaper
+
+Package: com.pedromopi.wdlfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: packages/com.pedromopi.wdlfix_1.0.1_iphoneos-arm.deb
+Size: 1310
+MD5sum: 07c2ca5adee3d7dee03fac9e21a318b4
+SHA1: 94249da06c9b56189ed2e8eb1c1761983d2782f3
+SHA256: 1fc781ec1d506019605c5989f6faf2843b529ccd6649c932dd574392a78e12e2
+Section: System
+Description: Fix the problem where WatchDogLite would not let you back to jailbroken mode after a reboot on iOS 11. Only after a respring WatchDogLite will work properly.
+Author: Pedro Borges
+Name: WatchDogLiteFix
+
+Package: com.withoutcoffee.revuestarlightauditionalarm
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: withoutCoffee
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: packages/com.withoutcoffee.revuestarlightauditionalarm_1.0.1_iphoneos-arm.deb
+Size: 26445662
+MD5sum: 42ada45773f1c97ab487c8f8c04271b9
+SHA1: 8505469a4a1711e367e893b1b681e7d71b974275
+SHA256: 8ed93c49e3e8455c3739acb696aaced46a02256ef76186eec7fe8661bc8a04ba
+Section: Tweaks
+Homepage: https://github.com/bgli100
+Description: Play RevueStarlight audition video upon alarms
+Author: withoutCoffee
+Name: RevueStarlightAuditionAlarm
+
+Package: com.yourepo.chasefromm17.internalsettings11
+Version: 2.0-release
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Depends: preferenceloader, com.ericasadun.utilities
+Filename: packages/com.yourepo.chasefromm17.internalsettings11_2.0-release_iphoneos-arm.deb
+Size: 542864
+MD5sum: bfdb2a0e499813a56f87be3cababd923
+SHA1: 7d0c4d4c96325db145be884cc6f3cf2db9e80799
+SHA256: f02f62bb70fc231cb53e42b85f1bb827f9d6b64c96e5a446a25bd0c9bfbaaac3
+Section: Tweaks
+Description: Enables hidden and interesting internal settings and features used by Apple internally. Compatible with iOS 11.
+Author: InternalSettingsTweak Project <uh4vel0st@gmail.com>
+Name: InternalSettings11 (for iOS 11)
+
+Package: jp.nephy.anticp
+Version: 0.0.1-3+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: packages/jp.nephy.anticp_0.0.1-3+debug_iphoneos-arm.deb
+Size: 3400
+MD5sum: bd334fc96dd880fb6ed69e5bc0cb3e6d
+SHA1: 5b1ffde5553b49e51c250685cc3a831843661179
+SHA256: 8e65b5335655fb5c1433ddc24cf9953ce1a3bf14ace6b4a5466218b116762423
+Section: Tweaks
+Homepage: https://github.com/SlashNephy/PushSlacker
+Description: [iOS 11] Bypass CrackProof detections. (WIP)
+Tag: purpose::extension
+Author: Slash Nephy <slash@nephy.jp>
+Name: AntiCP
+
+Package: jp.nephy.filzaactivationpatch
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: packages/jp.nephy.filzaactivationpatch_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2562
+MD5sum: c706d444c180499e7861c48a241e634f
+SHA1: 5f937a863acc4025da823b457fb7c78a3653c78e
+SHA256: 6723b454a6aa765c4b211fc2f58d8b0daadc87eec22e8da2879a25b0d4c0d459
+Section: Tweaks
+Homepage: https://github.com/SlashNephy/FilzaActivationPatch
+Description: [iOS 11] Tapping "Activate" won't redirect you to the purchase page in Filza (~3.5.2-4).
+Tag: purpose::extension
+Author: Slash Nephy <slash@nephy.jp>
+Name: Filza Activation Patch
+
+Package: jp.nephy.icleanerpronoad
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: packages/jp.nephy.icleanerpronoad_0.0.1-2+debug_iphoneos-arm.deb
+Size: 2736
+MD5sum: 16aac671d14c783ac71f5a8ef75fe780
+SHA1: 072e84d09fe6299e17b917ef1aa8cb1226a71b73
+SHA256: 7e926f1146da8a9063bbc701f95eac750761baa96637993e0b0d838c0397e2a2
+Section: Tweaks
+Homepage: https://github.com/SlashNephy/iCleanerProNoAd
+Description: [iOS 11] Hide ads in iCleaner Pro (~7.7.0).
+Tag: purpose::extension
+Author: Slash Nephy <slash@nephy.jp>
+Name: iCleaner Pro No Ad
+
+Package: jp.nephy.ignitionfun
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Filename: packages/jp.nephy.ignitionfun_0.0.1_iphoneos-arm.deb
+Size: 1360
+MD5sum: 3ba917839372b3d77870947d48b5ee23
+SHA1: 7af44472f3c126e58148ed3d5265086fb0c77abe
+SHA256: 844202b30de8eb1f847b73b677d1114de04e7d6e4dd3086abba4dea8c934b41d
+Section: Utilities
+Homepage: https://github.com/SlashNephy/IgnitionFun
+Description: [iOS 11] Ignition.fun App.
+Tag: purpose::uikit
+Author: Slash Nephy <slash@nephy.jp>
+Name: Ignition.fun
+
+Package: jp.nephy.pushslacker
+Version: 0.0.3-2+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 184
+Depends: mobilesubstrate, preferenceloader
+Filename: packages/jp.nephy.pushslacker_0.0.3-2+debug_iphoneos-arm.deb
+Size: 13114
+MD5sum: a817e35584f62ebebce33ad43668c97f
+SHA1: b32fce58cd6444f7089d494cadbb6aaef5eb3bfa
+SHA256: 150bd6ead49334eed27fe8c37d250497ceda78ea140ee63d2f20376a50472812
+Section: Tweaks
+Homepage: https://github.com/SlashNephy/PushSlacker
+Description: [iOS 11-12] Forward notifications to your Slack channel.
+Tag: purpose::extension
+Author: Slash Nephy <slash@nephy.jp>
+Name: PushSlacker
+
+Package: jp.nephy.stoptweetdeletion
+Version: 0.0.1-3+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: packages/jp.nephy.stoptweetdeletion_0.0.1-3+debug_iphoneos-arm.deb
+Size: 2484
+MD5sum: de1e02af65a8abe9d14a5ba24c351403
+SHA1: 2585a38f4419a9c9b167d691e3d6acab3439afa9
+SHA256: e193eb8d208b17ab1a767434b04cbe7df99d18d0e414fbbca9a637515e1a13f8
+Section: Tweaks
+Homepage: https://github.com/SlashNephy/StopTweetDeletion
+Description: [iOS 11] Prevent feather from removing tweets which author deleted.
+Tag: purpose::extension
+Author: Slash Nephy <slash@nephy.jp>
+Name: Stop Tweet Deletion
+
+Package: jp.nephy.twinklenoad
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: packages/jp.nephy.twinklenoad_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2454
+MD5sum: 8a63a7338d46d77e02f6748b8ac5afc7
+SHA1: e0d7bbd0ae189150b435dd748918b87a945f5423
+SHA256: f6498872b1c8732c48ab2b9193825709c437b2a25ed1210792590ab3a5649aa7
+Section: Tweaks
+Homepage: https://github.com/SlashNephy/TwinkleNoAd
+Description: [iOS 11] Hide ads in Twinkle.
+Tag: purpose::extension
+Author: Slash Nephy <slash@nephy.jp>
+Name: Twinkle No Ad
+
+Package: ru.domo.cocoatop64
+Version: 2.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Domo
+Installed-Size: 742
+Conflicts: ru.domo.cocoatop
+Filename: packages/ru.domo.cocoatop64_2.0.2-1+debug_iphoneos-arm.deb
+Size: 151514
+MD5sum: c30794b242e73c924db279640dc6eee1
+SHA1: 2b6de3e669fb288c9369affae3c1285ca6899282
+SHA256: 143609060c4eb424d0c8fe580bc4eda62985e27e665ce91fb5e6d3034217d35e
+Section: Utilities
+Description: Process Viewer for iOS GUI (64-bit)
+Author: Domo
+Name: CocoaTop
+
+Package: ws.hbang.dailypaper
+Version: 1.1-13+debug
+Architecture: iphoneos-arm
+Maintainer: Slash Nephy <slash@nephy.jp>
+Installed-Size: 400
+Depends: mobilesubstrate, ws.hbang.common (>= 1.1)
+Filename: packages/ws.hbang.dailypaper_1.1-13+debug_iphoneos-arm.deb
+Size: 30384
+MD5sum: a59a88065820046f82351f7662d779b3
+SHA1: 883ad9512d448a57f36fe20b6a46c15d8f8a4e0f
+SHA256: 264544b953c450d73f2258726f8cb890c1286324b580b4a4d9ded0d40bcad25c
+Section: Tweaks
+Description: [iOS 11] Daily wallpapers courtesy of Bing
+Author: SlashNephy, HASHBANG Productions <slash@nephy.jp>
+Name: DailyPaper
+Support: https://www.hbang.ws/faq/
+
