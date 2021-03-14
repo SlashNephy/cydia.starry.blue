@@ -1,0 +1,37 @@
+name: Release.gpg
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - Release
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v3
+        with:
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
+      - name: Sign Release
+        run: gpg -abs -o Release.gpg Release
+
+      - name: Configure git
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      - name: Commit Packages
+        run: |
+          git add .
+          git commit -m "GPG Signing for ${{ github.sha }}"
+          git push
