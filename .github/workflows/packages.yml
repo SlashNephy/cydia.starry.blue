@@ -37,5 +37,5 @@ jobs:
       - name: Commit Packages
         run: |
           git add .
-          git commit -m "dpkg-scanpackages $('${{ github.sha }}'.Substring(0, 7))"
+          git commit -m "dpkg-scanpackages for ${{ github.sha }}"
           git push
