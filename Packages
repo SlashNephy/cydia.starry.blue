@@ -267,6 +267,22 @@ Tag: purpose::extension
 Author: Slash Nephy <slash@nephy.jp>
 Name: Twinkle No Ad
 
+Package: kr.xsf1re.vnodebypass
+Version: 0.2.2
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Installed-Size: 228
+Filename: packages/kr.xsf1re.vnodebypass_0.2.2_iphoneos-arm.deb
+Size: 24668
+MD5sum: f7a501d82d66c3a2e0a07be7f6efbab2
+SHA1: 4f23c01ded211ecedae1aa1ada68bd84e2a29cf8
+SHA256: 21a89cbf20c807ce8c4f30ff17160997b0b55b828f08184d7ea17a4feb409e3f
+Section: System
+Description: An expermental tool to hide jailbreak files for bypass detection.
+Tag: role::hacker
+Author: XsF1re
+Name: vnodebypass
+
 Package: ru.domo.cocoatop64
 Version: 2.0.2-1+debug
 Architecture: iphoneos-arm
