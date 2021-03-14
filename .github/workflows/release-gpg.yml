@@ -24,7 +24,7 @@ jobs:
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
       - name: Sign Release
-        run: gpg -abs -o Release.gpg Release
+        run: gpg -abs --batch --yes -o Release.gpg Release
 
       - name: Configure git
         run: |
