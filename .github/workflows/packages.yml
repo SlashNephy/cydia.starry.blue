@@ -25,9 +25,9 @@ jobs:
 
       - name: Compress Packages
         run: |
-          bzip2 -k Packages
-          gzip -k Packages
-          xz -k Packages
+          bzip2 -kf Packages
+          gzip -kf Packages
+          xz -kf Packages
 
       - name: Configure git
         run: |
