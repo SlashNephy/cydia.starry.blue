@@ -31,6 +31,24 @@ Description: Clear notifications by swiping down
 Author: Antique
 Name: Crystal
 
+Package: com.geosn0w.iSecureOS
+Version: 1.01
+Architecture: iphoneos-arm
+Maintainer: GeoSn0w (@FCE365)
+Depends: mobilesubstrate
+Filename: packages/com.geosn0w.iSecureOS.deb
+Size: 1071104
+MD5sum: 9e83d3eaed83146a14e47feafe6928a2
+SHA1: cf30b96ec26c586e53190a2382c5f7fb85390436
+SHA256: 55ed16bb22c960995a829d5f4b224e44c5c5f2c1f7d38facb055af7c7f526502
+Section: Utilities
+Description: An iOS Security Application for Jailbroken units.
+Author: GeoSn0w (@FCE365)
+Depiction: https://geosn0w.github.io/cloud9/repo/Files/iSecureOS/iSecureOS.html
+Dev: GeoSn0w
+Name: iSecureOS
+Sileodepiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/sileo
+
 Package: com.ioncodes.snek
 Version: 0.1.0-1+debug
 Architecture: iphoneos-arm
