@@ -399,6 +399,39 @@ Tag: role::hacker
 Author: XsF1re
 Name: vnodebypass
 
+Package: libkrw
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Siguza
+Filename: packages/libkrw_1.1.0_iphoneos-arm.deb
+Size: 6876
+MD5sum: 87fa0816699693abd129ee07e7592ddd
+SHA1: 2630eea27e2cde0adb4bd163f8693b3be5863c97
+SHA256: f86a22a7145928e6b9568116a71303c340c9f2f607b69b77c55358e0dd41016f
+Section: Development
+Priority: optional
+Homepage: https://github.com/Siguza/libkrw/
+Description: Nice kernel r/w API
+Author: Siguza
+Name: libkrw
+
+Package: libkrw-dev
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Siguza
+Depends: libkrw
+Filename: packages/libkrw-dev_1.1.0_iphoneos-arm.deb
+Size: 2924
+MD5sum: ec27e4486e25ab1246377c722f7b294a
+SHA1: b87013063cd199a48be13c7d8fcd0c4d5842d63e
+SHA256: 17fbab84f79d0f1d859591a50c8872b93d2075ee583d1ffae9f071d5c59d2320
+Section: Development
+Priority: optional
+Homepage: https://github.com/Siguza/libkrw/
+Description: libkrw headers
+Author: Siguza
+Name: libkrw-dev
+
 Package: net.limneos.MobileMiner
 Version: 1.0
 Architecture: iphoneos-arm
